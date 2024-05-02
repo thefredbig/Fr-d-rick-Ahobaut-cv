@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Curriculum Vitae | Frédérick Aho</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Frédérick Ahobaut</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#profil" onclick="seleccionar()">Profil</a></li>
+                    <li><a href="#surmoi" onclick="seleccionar()">Sur moi</a></li>
+                    <li><a href="#Compétences" onclick="seleccionar()">Compétences</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum Vitae</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contact" onclick="seleccionar()">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECTION PROFIL -->
+    <section id="profil" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/profile-pic.png" alt="">
+            </div>
+            <h1>Frédérick Ahhobaut</h1>
+            <h2>Ingénieur d'Affaires Parcours Développement Durable</h2>
+            <h2>Concepteur Développeur d'Application</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/y.o.u.y.o.u__/"><i class="fa-brands fa-instagram">‌‌</i></a>
+                <a href="https://wa.me/33610694708"><i class="fa-brands fa-whatsapp">‌</i></a>
+                <a href="https://snapchat.com/t/S3TS5AQO"><i class="fa-brands fa-snapchat">‌</i></a>
+                <a href="https://www.linkedin.com/in/fa-51043a307/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION SUR MOI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2></h2>
+            <p>Hello !, Je suis <span>Frédérick Ahobaut, </span>Je peux me décrire comme une personne rigoureuse et méthodique, je m'engage à exceller dans chaque tâche qui m'est confiée. Fort d'une approche organisée et précise, je poursuis constamment l'excellence dans mon travail. Ma passion pour la perfection et mon souci du détail se reflètent dans chacune de mes réalisations, faisant de moi un collaborateur fiable et dévoué.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Informations personnelles</h3>
+                    <ul>
+                        <li>
+                            <strong>Date de naissance</strong>
+                            29-08-2001
+                        </li>
+                        <li>
+                            <strong>Téléphone</strong>
+                            +33 6 10 69 47 08
+                        </li>
+                        <li>
+                            <strong>E-mail</strong>
+                            ahobautfrederick@gmail.com
+                        </li>
+                        <li>
+                            <strong>Adresse</strong>
+                            19 Clos des perroquets, 94 500 
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intérêts</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fas fa-tv-alt"></i>
+                            <span>Photoshop</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-app-store">‌</i>
+                            <span>Réseaux</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-user-graduate"></i>
+                            <span>Etudes</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>Photo</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>Sport</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book-open"></i>
+                            <span>Lecture</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+          <a href="../portfolio-freddy-main/assets/resume-example.pdf" download="resume-example.pdf" class="btn btn-color-2">Télécharger le CV</a>
+
+          </button>
+        </div>
+    </section>
+
+    <!-- SECTION COMPETENCES -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Compétences</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Compétences techniques</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>20%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop & Illustrator</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>66%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>maintenance</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Outils Collaboratif Microsoft</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>78%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Compétences Professionnelles</h3>
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Travail en équipe</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>La créativité</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dévouement</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Gestion de projet</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>84%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum Vitae </h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Formation</h3>
+                    <div class="item izq">
+                        <h4>MASTER - Ingénieur d'Affaires Parcours Développement Durable</h4>
+                        <span class="casa">GEMA | ESI Business School (Boulogne - FRANCE)</span>
+                        <span class="fecha">2024 - 2027 
+                            <P class="acquisition">
+                                <img class="img01" src="../portfolio-freddy-main/img/Rond_orange.png" width="10px" height="10px" alt="Rond_orange" >
+                                <i>En cours d'acquisition ...</i>
+                            </P>
+                        </span>
+                        <p>Le Programme Grande Ecole de l'ESI Business School s'étend sur une durée de 5 ans. Elle dispose d'atouts exceptionnels pour une formation RSE, développement durable ou encore environnementale : un corps professoral composé d'experts de haut niveau dans le monde de l'environnement appliqué au business et au management, des milliers d'entreprises partenaires impliquées dans les études, alternances et stages des étudiants, des partenaires académiques à l'international permettant les échanges universitaires et l'obtention de doubles diplômes, ainsi qu'une vie associative et culturelle très enrichissante.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>BACHELOR - Concepteur Développeur d'Application</h4>
+                        <span class="casa">ICADEMIE | Business & Digital School (Paris - FRANCE)</span>
+                        <span class="fecha">2024 - 2025
+                            <P class="acquisition">
+                                <img class="img01" src="../portfolio-freddy-main/img/Rond_orange.png" width="10px" height="10px" alt="Rond_orange" >
+                                <i>En cours d'acquisition ...</i>
+                            </P>
+                        </span>
+                        <p>Ce diplôme de l'ESI Business School est une formation de cinq ans qui combine le Management et le Développement Durable. Il prépare les étudiants à devenir des professionnels engagés, capables d'avoir un impact positif sur le monde. Avec des professeurs experts, des partenariats avec des entreprises et des opportunités internationales, ce programme offre une expérience complète pour ceux qui veulent façonner un avenir durable dans le monde des affaires.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>BTS - Réseaux Informatiques et Télécommunications</h4>
+                        <span class="casa">IVESTP (Abidjan - CI)</span>
+                        <span class="fecha">2020 - 2023
+                            <P class="acquisition_v">
+                                <img class="img01" src="../portfolio-freddy-main/img/Rond_vert.png" width="10px" height="10px" alt="Rond_orange" >
+                                <a href="../portfolio-freddy-main/assets/Dip.BTS.pdf">Validé</a>
+                                </P>
+                        </span>
+                        <p>Le BTS en Réseaux Informatiques et Télécommunications est une formation qui vous apprend tout sur les ordinateurs qui communiquent entre eux et sur les téléphones. Vous découvrirez comment les installer, les régler et les réparer. Vous apprendrez également à assurer qu'ils fonctionnent correctement et en toute sécurité. Ce diplôme vous prépare à travailler dans des entreprises qui utilisent beaucoup l'informatique et les téléphones, comme les fournisseurs d'accès Internet ou les sociétés de télécommunications.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>BACCALAUREAT - Electronique</h4>
+                        <span class="casa">GSE (Abidjan - CI)</span>
+                        <span class="fecha">2019 - 2020
+                            
+                                <P class="acquisition_v">
+                                <img class="img01" src="../portfolio-freddy-main/img/Rond_vert.png" width="10px" height="10px" alt="Rond_orange" >
+                                <a href="../portfolio-freddy-main/assets/Bac.pdf">Validé</a>
+                                </P>
+                            
+                        </span>
+                        <p>Le Baccalauréat en Électronique est un diplôme qui vous apprend tout sur les appareils électroniques, comment ils fonctionnent et comment les réparer. C'est comme de devenir un expert en gadgets et en machines électroniques !</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Expérience professionnelle</h3>
+                    <div class="item der">
+                        <h4>Stage de Qualification | TELECOM</h4>
+                        <span class="casa"><img class="expe" src="../portfolio-freddy-main/img/artci.png"  alt=""></span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>
+                            Controle décisionel, Tarifaire<br>
+                            Comptabilité auxiliaire client<br>
+                            Vérification des offres promotionnelle<br>
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Projets indépendants</h4>
+                        <span class="casa"><img class="expe" src="../portfolio-freddy-main/img/Pixell.png"  alt=""></span>
+                        <span class="fecha">2019 - 2023</span>
+                        <p>
+                            Technicien Helpdesk<br>
+                            Inphographe<br>
+                            Developpeur WEB<br>
+                            Electronicien<br>
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Stage d'étude | Réseaux Informatiques</h4>
+                        <span class="casa">FUTURE</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Conception d'un réseau filaire avec une connexion internet.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO 
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACT</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" id="prenom" placeholder="Prénom">
+                    <input type="text" id="telephone" placeholder="Numéro de téléphone">
+                    <input type="text" id="email" placeholder="Email">
+                    <input type="text" id="objet" placeholder="Objet">
+                    <textarea id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <!-- Lien pour rediriger vers WhatsApp -->
+                    <a href="#" id="envoyerMessage">
+                        Envoyer le message <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </a>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                19 Clos des perroquets, 94500 CHAMPIGNY-SUR-MARNE
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Appelez-moi : +33 6 10 69 47 08
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: ahobautfrederick@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#profil" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/y.o.u.y.o.u__/"><i class="fa-brands fa-instagram">‌‌</i></a>
+                <a href="https://wa.me/33610694708"><i class="fa-brands fa-whatsapp">‌</i></a>
+                <a href="https://snapchat.com/t/S3TS5AQO"><i class="fa-brands fa-snapchat">‌</i></a>
+                <a href="https://www.linkedin.com/in/fa-51043a307/"><i class="fa-brands fa-linkedin-in"></i></a>
+                
+        </div>
+        
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
